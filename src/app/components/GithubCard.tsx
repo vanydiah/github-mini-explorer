@@ -27,7 +27,7 @@ export default function GithubCard({ user, toggleUser, expanded, repos, loadingR
     <div className="bg-gray-100 rounded shadow p-2">
       <button
         onClick={() => toggleUser(user.login)}
-        className="w-full text-left flex justify-between items-center"
+        className="w-full text-left flex justify-between items-center text-gray-600"
       > 
         <div className="flex items-center justify-between">
           <img src={user.avatar_url} alt={user.login} className="w-12 h-12 rounded-full mr-2 border border-gray-300" />
@@ -49,15 +49,15 @@ export default function GithubCard({ user, toggleUser, expanded, repos, loadingR
             repos[user.login].length > 0 
             ? repos[user.login]?.map(repo => (
               <a href={repo.html_url} target="_blank" rel="noopener noreferrer" className="block" key={repo.id}>
-                <div className="border mt-1 p-2 rounded text-sm bg-gray-50">
+                <div className="border mt-1 p-2 rounded text-sm text-gray-600">
                   <div className="font-semibold flex justify-between">
                     {repo.name}
-                    <span className="flex items-center gap-1">
+                    <span className="flex items-center gap-1 text-gray-600">
                       {repo.stargazers_count}
                       <FaStar className="text-yellow-500" />
                     </span>
                   </div>
-                  <div className="text-gray-600">{repo.description}</div>
+                  <div>{repo.description}</div>
                 </div>
               </a>
             ))
