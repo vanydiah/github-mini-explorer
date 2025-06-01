@@ -58,7 +58,8 @@ Deployed on Vercel
 
 Nice to Have
 - Unit and integration tests ✅
-check by run this
+
+sample of unit test, check by running this
 ```bash
 npm run test
 # or
@@ -69,7 +70,7 @@ pnpm test
 bun test
 ```
 <p align="left">
-  <img src="./public/ss5.png" alt="Screenshot 5" width="800px" />
+  <img src="./public/ss5.png" alt="Screenshot 5" width="600px" />
 </p>
 
 Tips
