@@ -2,7 +2,7 @@
 GitHub Mini Explorer is a simple React-based tool that lets you search for up to 5 GitHub users by username and view all their public repositories in collapsible dropdowns. It offers a clean UI, responsive design, and smooth UX with loading states and error handling.
 
 ## Demo
-[Github Mini Explorer Vercel](https://github-mini-explorer.vercel.app/)
+👉 [GitHub Mini Explorer on Vercel](https://github-mini-explorer.vercel.app/)
 
 ## Screenshots
 ![ss1](./public/ss1.png)
@@ -34,20 +34,28 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ### Requirements checklist
-● Use React ✅
-● Use TypeScript ✅
-● You may use other libraries of your choice for forms, styling, testing, state management,
-etc. ✅ | Form validation using react-hook-form & Zod, styling with Tailwindcss, testing with Jest
-● The app must be available as a public GitHub repository ✅
-● The app should be hosted and publicly accessible by URL (i.e. via GitHub pages), ✅ | deployed on Vercel
-● A proper README must be provided ✅
-● Errors should be handled appropriately ✅
-● Good UX practices should be implemented (i.e. keyboard events handling, loading
-states) ✅
-● Only English should be used. ✅
+Use React ✅
 
-Nice to have
-● Unit and integration tests. ✅
+Use TypeScript ✅
+
+- You may use other libraries of your choice for forms, styling, testing, state management, etc. ✅
+Form validation using react-hook-form & Zod, styling with TailwindCSS, testing with Jest
+
+- The app must be available as a public GitHub repository ✅
+
+- The app should be hosted and publicly accessible by URL (i.e. via GitHub pages) ✅
+Deployed on Vercel
+
+- A proper README must be provided ✅
+
+- Errors should be handled appropriately ✅
+
+- Good UX practices should be implemented (i.e. keyboard events handling, loading states) ✅
+
+- Only English should be used ✅
+
+Nice to Have
+- Unit and integration tests ✅
 check by run this
 ```bash
 npm run test
@@ -63,9 +71,11 @@ bun test
 Tips
 ● Don’t forget about the mobile view, ✅
 
-![ss2](./public/ss1.png)
-![ss2](./public/ss2.png)
-![ss3](./public/ss3.png)
-![ss4](./public/ss4.png)
-![sse1](./public/sse1.png)
+<p align="left">
+  <img src="./public/ssm1.png" alt="Screenshot 1" style="max-width: 300px;" />
+  <img src="./public/ssm2.png" alt="Screenshot 2" style="max-width: 300px;" />
+  <img src="./public/ssm3.png" alt="Screenshot 3" style="max-width: 300px;" />
+  <img src="./public/ssm4.png" alt="Screenshot 4" style="max-width: 300px;" />
+  <img src="./public/sse1.png" alt="Screenshot 5" style="max-width: 300px;" />
+</p>
 
