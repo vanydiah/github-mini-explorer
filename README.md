@@ -5,11 +5,13 @@ GitHub Mini Explorer is a simple React-based tool that lets you search for up to
 👉 [GitHub Mini Explorer on Vercel](https://github-mini-explorer.vercel.app/)
 
 ## Screenshots
-![ss1](./public/ss1.png)
-![ss2](./public/ss2.png)
-![ss3](./public/ss3.png)
-![ss4](./public/ss4.png)
-![ss11](./public/sse11.png)
+<p align="left">
+  <img src="./public/ss1.png" alt="Screenshot 1" width="600px" />
+  <img src="./public/ss2.png" alt="Screenshot 2" width="600px" />
+  <img src="./public/ss3.png" alt="Screenshot 3" width="600px" />
+  <img src="./public/ss4.png" alt="Screenshot 4" width="600px" />
+  <img src="./public/sse11.png" alt="Screenshot 5" width="600px" />
+</p>
 
 ### Getting Started
 
@@ -66,7 +68,9 @@ pnpm test
 # or
 bun test
 ```
-![ss5](./public/ss5.png)
+<p align="left">
+  <img src="./public/ss5.png" alt="Screenshot 5" width="800px" />
+</p>
 
 Tips
 
