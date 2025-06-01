@@ -69,13 +69,14 @@ bun test
 ![ss5](./public/ss5.png)
 
 Tips
-● Don’t forget about the mobile view, ✅
+
+- Don’t forget about the mobile view, ✅
 
 <p align="left">
   <img src="./public/ssm1.png" alt="Screenshot 1" width="300px" />
-  <img src="./public/ssm2.png" alt="Screenshot 2" style="max-width: 300px;" />
-  <img src="./public/ssm3.png" alt="Screenshot 3" style="max-width: 300px;" />
-  <img src="./public/ssm4.png" alt="Screenshot 4" style="max-width: 300px;" />
-  <img src="./public/sse1.png" alt="Screenshot 5" style="max-width: 300px;" />
+  <img src="./public/ssm2.png" alt="Screenshot 2" width="300px" />
+  <img src="./public/ssm3.png" alt="Screenshot 3" width="300px" />
+  <img src="./public/ssm4.png" alt="Screenshot 4" width="300px" />
+  <img src="./public/sse1.png" alt="Screenshot 5" width="300px" />
 </p>
 
