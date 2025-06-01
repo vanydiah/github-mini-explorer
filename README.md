@@ -34,9 +34,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ### Requirements checklist
-Use React ✅
+- Use React ✅
 
-Use TypeScript ✅
+- Use TypeScript ✅
 
 - You may use other libraries of your choice for forms, styling, testing, state management, etc. ✅
 Form validation using react-hook-form & Zod, styling with TailwindCSS, testing with Jest
