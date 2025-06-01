@@ -72,7 +72,7 @@ Tips
 ● Don’t forget about the mobile view, ✅
 
 <p align="left">
-  <img src="./public/ssm1.png" alt="Screenshot 1" style="max-width: 300px;" />
+  <img src="./public/ssm1.png" alt="Screenshot 1" width="300px" />
   <img src="./public/ssm2.png" alt="Screenshot 2" style="max-width: 300px;" />
   <img src="./public/ssm3.png" alt="Screenshot 3" style="max-width: 300px;" />
   <img src="./public/ssm4.png" alt="Screenshot 4" style="max-width: 300px;" />
