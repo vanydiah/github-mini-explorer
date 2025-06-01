@@ -4,8 +4,6 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import axios from "axios";
-import { motion } from "framer-motion";
-import { FaStar } from "react-icons/fa";
 import GithubCard from "./components/GithubCard";
 
 interface GithubUser {
@@ -54,7 +52,8 @@ export default function GitHubExplorer() {
         `https://api.github.com/search/users?q=${data.username}&per_page=5`
       );
       setUsers(res.data.items);
-    } catch (err) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    } catch (error) {
       setError("Failed to fetch users. Try again later.");
     } finally {
       setLoadingUsers(false);
